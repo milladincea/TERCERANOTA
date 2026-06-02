@@ -258,22 +258,6 @@ new Chart(document.getElementById("dispersion"), {
                     pointRadius: 6,
                     pointHoverRadius: 8
                 },
-
-                {
-                    label: "Tendencia",
-                    type: "line",
-                    data: lineaTendencia,
-
-                    borderColor: "rgba(120,120,120,0.5)",
-                    borderWidth: 2,
-                    borderDash: [6, 4],
-
-                    pointRadius: 0,
-                    pointHoverRadius: 0,
-
-                    fill: false,
-                    tension: 0
-                }
             ]
         },
 
